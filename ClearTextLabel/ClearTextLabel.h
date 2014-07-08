@@ -25,6 +25,11 @@
 
 #import <UIKit/UIKit.h>
 
+#if !__has_feature(objc_arc)
+#error ClearTextLabel requires ARC. Please turn on ARC for your project or \
+add -fobjc-arc flag for ClearTextLabel.m file in Build Phases -> Compile Sources.
+#endif
+
 @interface ClearTextLabel : UILabel
 {
     UIColor* bgFillColor;
