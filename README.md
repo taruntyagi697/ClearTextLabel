@@ -4,6 +4,7 @@
 
 ## Requirements
 * iOS 6.0 or later
+* CoreFoundation.framework
 * CoreText.Framework
 * ARC (either project is ARC or ClearTextLabel is compiled with `-fobjc-arc`)
 
