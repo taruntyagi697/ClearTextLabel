@@ -489,6 +489,7 @@
 				AA25FF4C196C4EAD00FA3F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA25FF4D196C4EAD00FA3F65 /* Build configuration list for PBXNativeTarget "CTLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +498,7 @@
 				AA25FF4F196C4EAD00FA3F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
