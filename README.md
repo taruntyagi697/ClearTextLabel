@@ -3,7 +3,7 @@
 `ClearTextLabel` is a `UILabel` subclass that creates a label with see-through text.
 
 ## Requirements
-
+* iOS 6.0 or later
 * CoreText.Framework
 * ARC (either project is ARC or ClearTextLabel is compiled with `-fobjc-arc`)
 
