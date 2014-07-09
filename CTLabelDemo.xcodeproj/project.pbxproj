@@ -25,6 +25,7 @@
 		AA25FF56196C4F7B00FA3F65 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF54196C4F7B00FA3F65 /* LICENSE.md */; };
 		AA25FF57196C4F7B00FA3F65 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF55196C4F7B00FA3F65 /* README.md */; };
 		AA25FF5D196C66DD00FA3F65 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF5C196C66DD00FA3F65 /* bg.jpg */; };
+		AA9DD2E2196D9197003488D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DD2E1196D9197003488D1 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		AA25FF54196C4F7B00FA3F65 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		AA25FF55196C4F7B00FA3F65 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		AA25FF5C196C66DD00FA3F65 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		AA9DD2E1196D9197003488D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9DD2E2196D9197003488D1 /* CoreText.framework in Frameworks */,
 				AA25FF1E196C4EAD00FA3F65 /* CoreGraphics.framework in Frameworks */,
 				AA25FF20196C4EAD00FA3F65 /* UIKit.framework in Frameworks */,
 				AA25FF1C196C4EAD00FA3F65 /* Foundation.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		AA25FF1A196C4EAD00FA3F65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA9DD2E1196D9197003488D1 /* CoreText.framework */,
 				AA25FF1B196C4EAD00FA3F65 /* Foundation.framework */,
 				AA25FF1D196C4EAD00FA3F65 /* CoreGraphics.framework */,
 				AA25FF1F196C4EAD00FA3F65 /* UIKit.framework */,
