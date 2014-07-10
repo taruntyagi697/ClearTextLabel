@@ -24,6 +24,7 @@
  */
 
 #import "ClearTextLabel.h"
+#import <CoreFoundation/CoreFoundation.h>
 #import <CoreText/CoreText.h>
 
 #define to_CFAttrString (__bridge CFAttributedStringRef)
