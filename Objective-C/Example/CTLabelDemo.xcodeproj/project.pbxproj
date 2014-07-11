@@ -22,8 +22,6 @@
 		AA25FF45196C4EAD00FA3F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF43196C4EAD00FA3F65 /* InfoPlist.strings */; };
 		AA25FF47196C4EAD00FA3F65 /* CTLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25FF46196C4EAD00FA3F65 /* CTLabelDemoTests.m */; };
 		AA25FF53196C4ED600FA3F65 /* ClearTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25FF52196C4ED600FA3F65 /* ClearTextLabel.m */; };
-		AA25FF56196C4F7B00FA3F65 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF54196C4F7B00FA3F65 /* LICENSE.md */; };
-		AA25FF57196C4F7B00FA3F65 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF55196C4F7B00FA3F65 /* README.md */; };
 		AA25FF5D196C66DD00FA3F65 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF5C196C66DD00FA3F65 /* bg.jpg */; };
 		AA9DD2E2196D9197003488D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DD2E1196D9197003488D1 /* CoreText.framework */; };
 		AAAAB84B196E3F5200ABCE9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAAB84A196E3F5200ABCE9C /* QuartzCore.framework */; };
@@ -62,8 +60,6 @@
 		AA25FF46196C4EAD00FA3F65 /* CTLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTLabelDemoTests.m; sourceTree = "<group>"; };
 		AA25FF51196C4ED600FA3F65 /* ClearTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearTextLabel.h; sourceTree = "<group>"; };
 		AA25FF52196C4ED600FA3F65 /* ClearTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearTextLabel.m; sourceTree = "<group>"; };
-		AA25FF54196C4F7B00FA3F65 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
-		AA25FF55196C4F7B00FA3F65 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		AA25FF5C196C66DD00FA3F65 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		AA9DD2E1196D9197003488D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AAAAB84A196E3F5200ABCE9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -100,8 +96,6 @@
 		AA25FF0F196C4EAD00FA3F65 = {
 			isa = PBXGroup;
 			children = (
-				AA25FF54196C4F7B00FA3F65 /* LICENSE.md */,
-				AA25FF55196C4F7B00FA3F65 /* README.md */,
 				AA25FF50196C4ED600FA3F65 /* ClearTextLabel */,
 				AA25FF21196C4EAD00FA3F65 /* CTLabelDemo */,
 				AA25FF40196C4EAD00FA3F65 /* CTLabelDemoTests */,
@@ -263,10 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA25FF56196C4F7B00FA3F65 /* LICENSE.md in Resources */,
 				AA25FF5D196C66DD00FA3F65 /* bg.jpg in Resources */,
 				AA25FF34196C4EAD00FA3F65 /* Images.xcassets in Resources */,
-				AA25FF57196C4F7B00FA3F65 /* README.md in Resources */,
 				AA25FF26196C4EAD00FA3F65 /* InfoPlist.strings in Resources */,
 				AA25FF2F196C4EAD00FA3F65 /* Main.storyboard in Resources */,
 			);
