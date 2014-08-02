@@ -9,13 +9,22 @@
 * QuartzCore.framework
 * ARC (either project is ARC or ClearTextLabel is compiled with `-fobjc-arc`)
 
+## Installation
+* Want a pod for this, just add following line to your podfile-
+```
+pod 'ClearTextLabel'
+```
+
+* You may wish to copy the source files directly, totally up to you.
+
 ## How To Use
 
 Using ClearTextLabel is as simple as using regular UILabel :
-
-	ClearTextLabel* objCTLbl = [[ClearTextLabel alloc] initWithFrame:CGRectMake(20, 100, 280, 368)];
-    objCTLbl.text = @"Can this be drawn with transparency ?";
-    [self.view addSubview:objCTLbl];
+```objective-c
+ClearTextLabel* objCTLbl = [[ClearTextLabel alloc] initWithFrame:CGRectMake(20, 100, 280, 368)];
+objCTLbl.text = @"Can this be drawn with transparency ?";
+[self.view addSubview:objCTLbl];
+```
 
 ClearTextLabel draws the text provided to it with transparency.
 * It uses CoreGraphics Context to draw the letters' CGPath.

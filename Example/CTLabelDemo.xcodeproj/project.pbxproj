@@ -21,8 +21,10 @@
 		AA25FF3D196C4EAD00FA3F65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA25FF1F196C4EAD00FA3F65 /* UIKit.framework */; };
 		AA25FF45196C4EAD00FA3F65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF43196C4EAD00FA3F65 /* InfoPlist.strings */; };
 		AA25FF47196C4EAD00FA3F65 /* CTLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25FF46196C4EAD00FA3F65 /* CTLabelDemoTests.m */; };
-		AA25FF53196C4ED600FA3F65 /* ClearTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25FF52196C4ED600FA3F65 /* ClearTextLabel.m */; };
 		AA25FF5D196C66DD00FA3F65 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA25FF5C196C66DD00FA3F65 /* bg.jpg */; };
+		AA77FA3A198CCFB30040F58F /* ClearTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA77FA39198CCFB30040F58F /* ClearTextLabel.m */; };
+		AA77FA3D198CD0250040F58F /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = AA77FA3B198CD0250040F58F /* LICENSE.md */; };
+		AA77FA3E198CD0250040F58F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA77FA3C198CD0250040F58F /* README.md */; };
 		AA9DD2E2196D9197003488D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9DD2E1196D9197003488D1 /* CoreText.framework */; };
 		AAAAB84B196E3F5200ABCE9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAAB84A196E3F5200ABCE9C /* QuartzCore.framework */; };
 		AAAAB84D196E3F9A00ABCE9C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAAB84C196E3F9A00ABCE9C /* CoreFoundation.framework */; };
@@ -58,9 +60,11 @@
 		AA25FF42196C4EAD00FA3F65 /* CTLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CTLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AA25FF44196C4EAD00FA3F65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA25FF46196C4EAD00FA3F65 /* CTLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTLabelDemoTests.m; sourceTree = "<group>"; };
-		AA25FF51196C4ED600FA3F65 /* ClearTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearTextLabel.h; sourceTree = "<group>"; };
-		AA25FF52196C4ED600FA3F65 /* ClearTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearTextLabel.m; sourceTree = "<group>"; };
 		AA25FF5C196C66DD00FA3F65 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		AA77FA38198CCFB30040F58F /* ClearTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearTextLabel.h; sourceTree = "<group>"; };
+		AA77FA39198CCFB30040F58F /* ClearTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearTextLabel.m; sourceTree = "<group>"; };
+		AA77FA3B198CD0250040F58F /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
+		AA77FA3C198CD0250040F58F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AA9DD2E1196D9197003488D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		AAAAB84A196E3F5200ABCE9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AAAAB84C196E3F9A00ABCE9C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -96,7 +100,9 @@
 		AA25FF0F196C4EAD00FA3F65 = {
 			isa = PBXGroup;
 			children = (
-				AA25FF50196C4ED600FA3F65 /* ClearTextLabel */,
+				AA77FA3B198CD0250040F58F /* LICENSE.md */,
+				AA77FA3C198CD0250040F58F /* README.md */,
+				AA77FA37198CCFB30040F58F /* ClearTextLabel */,
 				AA25FF21196C4EAD00FA3F65 /* CTLabelDemo */,
 				AA25FF40196C4EAD00FA3F65 /* CTLabelDemoTests */,
 				AA25FF1A196C4EAD00FA3F65 /* Frameworks */,
@@ -171,13 +177,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AA25FF50196C4ED600FA3F65 /* ClearTextLabel */ = {
+		AA77FA37198CCFB30040F58F /* ClearTextLabel */ = {
 			isa = PBXGroup;
 			children = (
-				AA25FF51196C4ED600FA3F65 /* ClearTextLabel.h */,
-				AA25FF52196C4ED600FA3F65 /* ClearTextLabel.m */,
+				AA77FA38198CCFB30040F58F /* ClearTextLabel.h */,
+				AA77FA39198CCFB30040F58F /* ClearTextLabel.m */,
 			);
-			path = ClearTextLabel;
+			name = ClearTextLabel;
+			path = ../ClearTextLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA77FA3E198CD0250040F58F /* README.md in Resources */,
+				AA77FA3D198CD0250040F58F /* LICENSE.md in Resources */,
 				AA25FF5D196C66DD00FA3F65 /* bg.jpg in Resources */,
 				AA25FF34196C4EAD00FA3F65 /* Images.xcassets in Resources */,
 				AA25FF26196C4EAD00FA3F65 /* InfoPlist.strings in Resources */,
@@ -282,7 +291,7 @@
 				AA25FF28196C4EAD00FA3F65 /* main.m in Sources */,
 				AA25FF32196C4EAD00FA3F65 /* CTLDViewController.m in Sources */,
 				AA25FF2C196C4EAD00FA3F65 /* CTLDAppDelegate.m in Sources */,
-				AA25FF53196C4ED600FA3F65 /* ClearTextLabel.m in Sources */,
+				AA77FA3A198CCFB30040F58F /* ClearTextLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
