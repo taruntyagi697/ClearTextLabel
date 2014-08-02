@@ -2,11 +2,15 @@ Pod::Spec.new do |s|
 
   s.name         = "ClearTextLabel"
   s.version      = "1.0.1"
-  s.summary      = "UILabel subclass that renders see through text using CoreText, textColor is clearColor."
+  s.summary      = "UILabel subclass that renders see through text using CoreText. textColor is clearColor."
 
-  s.description  = "ClearTextLabel is a UILabel subclass that creates a label with see-through text."
+  s.description  = "ClearTextLabel is a UILabel subclass that creates a label with see-through text.
+                    ClearTextLabel draws the text provided to it with transparency.
 
-  s.homepage     = "https://github.com/taruntyagi697/ClearTextLabel”
+                    * It uses CoreGraphics Context to draw the letters' CGPath.
+                    * Letters' CGPath, how ? Well what's CoreText there for ?"
+
+  s.homepage     = "https://github.com/taruntyagi697/ClearTextLabel"
   
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
 
@@ -21,7 +25,7 @@ Pod::Spec.new do |s|
   
   s.source_files  = "ClearTextLabel"
 
-  s.frameworks = "CoreFoundation.framework", "CoreText.framework", "QuartzCore.framework"
+  s.frameworks = "CoreFoundation", "CoreText", "QuartzCore"
 
   s.requires_arc = true
 
